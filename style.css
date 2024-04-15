@@ -1,15 +1,3 @@
-/*
- * 6 August 2022
- * CSS Pastry 🍰
- * made this CodePen for my classmate Pritha on her birthday
- * thank you for being such a good friend!
- *
- * recommended view: Full Page
- * tested on Firefox v103.0.1/x64, Chrome v105.0.5195.19-dev/x64, Chrome v103.0.5060.134/x64, Brave v1.42.86/x64, Edge v103.0.1264.77, Chrome for Android v81.0.4044.138/Android 4.4.2, Chrome for Android v103.0.5060.129/Android 11, and Firefox for Android v103.1.0/Android 11
- *
- * more information in the details view
- */
-
 :root {
 	--zoom: 100;
 	--animation-speed: 150;
@@ -66,10 +54,6 @@
 		transform: rotate(var(--cake-tilt));
 	}
 }
-
-/* *=== */
-/* *=== reset.css === */
-/* *=== */
 :root {
 	--unit: 1vmin;
 	--available-screen-min: 665;
@@ -102,8 +86,6 @@ label {
 	transform-style: preserve-3d;
 	background-repeat: no-repeat;
 }
-
-/** === thanks to this CSS-Tricks article - https://css-tricks.com/html-inputs-and-labels-a-love-story/ === */
 label {
 	order: 2;
 }
